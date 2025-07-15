@@ -4,7 +4,7 @@ from io import BytesIO, StringIO
 from collections import Counter
 
 st.set_page_config(page_title="Advanced Data Extractor", layout="wide")
-st.title("📁 Merge Files + Transform + Extract")
+st.title("📁 Merge and Process File")
 
 # ✅ Session setup (persists unless Start Over)
 if "uploader_key" not in st.session_state:
